@@ -123,7 +123,7 @@
                         "tier": "DataWarehouse"
                     },                    
                     "properties": {
-                        "collation": "SQL_Latin1_General_CP1_CI_AS",
+                        "collation": "SQL_Latin1_General_CP1_CI_AS"
                     },
                     "dependsOn": [
                         "[resourceId('Microsoft.Sql/servers', parameters('sqlServerName'))]"
