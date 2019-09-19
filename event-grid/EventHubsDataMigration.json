@@ -116,7 +116,7 @@
                 {
                     "name": "[parameters('sqlServerDatabaseName')]",
                     "type": "databases",
-                    "apiVersion": "2015-05-01-preview",
+                    "apiVersion": "2017-10-01-preview",
                     "location": "[resourceGroup().location]",
                     "sku": {
                         "name": "DW100c",
