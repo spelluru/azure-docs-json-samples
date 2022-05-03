@@ -208,8 +208,12 @@
                             "value": "[toLower(parameters('functionAppName'))]"
                         },
                         {
-                            "name": "StorageConnectionString",
-                            "value": "[concat('DefaultEndpointsProtocol=https;AccountName=', parameters('storageName'), ';AccountKey=', listKeys(variables('storageAccountid'),'2015-05-01-preview').key1)]"
+                            "name": "StorageAccountName",
+                            "value": "[parameters('storageName')]"
+                        },
+                        {
+                            "name": "StorageAccessKey",
+                            "value": "[listKeys(variables('storageAccountid'),'2015-05-01-preview').key1)]"
                         },
                         {
                             "name": "SqlDwConnection",
