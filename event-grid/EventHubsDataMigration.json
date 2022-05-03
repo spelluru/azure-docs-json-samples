@@ -213,7 +213,7 @@
                         },
                         {
                             "name": "StorageAccessKey",
-                            "value": "[listKeys(variables('storageAccountId'), '2015-05-01-preview').key1.value]"                            
+                            "value": "[listKeys(variables('storageAccountId'), '2015-05-01-preview').key1]"                            
                         },
                         {
                             "name": "SqlDwConnection",
